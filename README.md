@@ -44,8 +44,8 @@ For AJAX responses the models will be converted automatically to json.
 
 ### Commands
 
-* Use `presenter:register` to register all presenters that have the `@Presenter` annotation.
-* Use `presenter:clear` to clear the registered presenters file.
+* Use `php artisan presenter:register` to register all presenters that have the `@Presenter` annotation.
+* Use `php artisan presenter:clear` to clear the registered presenters file.
 
 ### Example
 
