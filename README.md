@@ -1,6 +1,6 @@
 # Laravel Datamapper Presenter
 
-**Important: This is an alpha version. So it might be that not everything works out of the box. You are welcome to report bugs.**
+**Important: This is an alpha version. So it might be that not everything work out of the box. You are welcome to report bugs.**
 
 This package extends the [Laravel Datamapper](https://github.com/proai/laravel-datamapper) package by a presenter.
 
