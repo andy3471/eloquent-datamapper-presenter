@@ -15,9 +15,7 @@
         "proai/laravel-datamapper": "1.*",
         "illuminate/console": "5.*",
         "illuminate/filesystem": "5.*",
-        "illuminate/database": "5.*",
-        "doctrine/annotations": "~1.2",
-        "doctrine/dbal": "~2.5"
+        "doctrine/annotations": "~1.2"
     },
     "autoload": {
         "psr-4": {
