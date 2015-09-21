@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ProAI\\DatamapperPresenter\\": "src/"
+            "ProAI\\Datamapper\Presenter\\": "src/"
         }
     },
     "extra": {

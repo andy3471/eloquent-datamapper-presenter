@@ -1,8 +1,8 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Console;
+namespace ProAI\Datamapper\Presenter\Console;
 
-use ProAI\DatamapperPresenter\Console\PresenterCommand;
+use ProAI\Datamapper\Presenter\Console\PresenterCommand;
 
 class PresenterClearCommand extends PresenterCommand
 {

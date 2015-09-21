@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Annotations;
+namespace ProAI\Datamapper\Presenter\Annotations;
 
 use ProAI\Datamapper\Annotations\Annotation;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Console;
+namespace ProAI\Datamapper\Presenter\Console;
 
 use Illuminate\Console\Command;
 use ProAI\Datamapper\Metadata\ClassFinder;
-use ProAI\DatamapperPresenter\Metadata\PresenterScanner;
-use ProAI\DatamapperPresenter\Presenter\Repository;
+use ProAI\Datamapper\Presenter\Metadata\PresenterScanner;
+use ProAI\Datamapper\Presenter\Presenter\Repository;
 use UnexpectedValueException;
 
 abstract class PresenterCommand extends Command

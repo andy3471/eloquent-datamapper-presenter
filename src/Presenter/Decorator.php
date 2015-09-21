@@ -1,8 +1,8 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Presenter;
+namespace ProAI\Datamapper\Presenter\Presenter;
 
-use ProAI\DatamapperPresenter\Contracts\PresentableModel;
+use ProAI\Datamapper\Presenter\Contracts\PresentableModel;
 use ProAI\Datamapper\Contracts\Proxy;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;

@@ -1,10 +1,10 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Support\Traits;
+namespace ProAI\Datamapper\Presenter\Support\Traits;
 
-use ProAI\DatamapperPresenter\Presenter\Repository;
-use ProAI\DatamapperPresenter\Presenter\Decorator;
-use ProAI\DatamapperPresenter\Presenter;
+use ProAI\Datamapper\Presenter\Presenter\Repository;
+use ProAI\Datamapper\Presenter\Presenter\Decorator;
+use ProAI\Datamapper\Presenter\Presenter;
 use Illuminate\Support\Facades\App;
 
 trait PresentableModel

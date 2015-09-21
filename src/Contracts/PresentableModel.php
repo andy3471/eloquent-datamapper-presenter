@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Contracts;
+namespace ProAI\Datamapper\Presenter\Contracts;
 
 interface PresentableModel
 {

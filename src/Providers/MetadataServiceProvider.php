@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\DatamapperPresenter\Providers;
+namespace ProAI\Datamapper\Presenter\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use ProAI\Datamapper\Metadata\ClassFinder;

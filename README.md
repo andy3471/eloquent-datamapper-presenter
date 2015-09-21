@@ -15,7 +15,7 @@ Laravel Datamapper Presenter is distributed as a composer package. So you first 
 Then you have to run `composer update` to install the package. Once this is completed, you have to add the service provider to the providers array in `config/app.php`:
 
 ```
-'ProAI\DatamapperPresenter\DatamapperPresenterServiceProvider'
+'ProAI\Datamapper\Presenter\Datamapper\PresenterServiceProvider'
 ```
 
 Run `php artisan vendor:publish` to publish this package configuration. Afterwards you can edit the file `config/datamapper.php`.
@@ -24,9 +24,9 @@ Run `php artisan vendor:publish` to publish this package configuration. Afterwar
 
 If you extend your models (i. e. entities and value objects) by
 
-* `ProAI\DatamapperPresenter\Support\AggregateRoot`,
-* `ProAI\DatamapperPresenter\Support\Entity` or
-* `ProAI\DatamapperPresenter\Support\ValueObject`
+* `ProAI\Datamapper\Presenter\Support\AggregateRoot`,
+* `ProAI\Datamapper\Presenter\Support\Entity` or
+* `ProAI\Datamapper\Presenter\Support\ValueObject`
 
 your model is presentable and you can use the presenter.
 
