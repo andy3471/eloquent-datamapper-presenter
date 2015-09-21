@@ -24,9 +24,9 @@ Run `php artisan vendor:publish` to publish this package configuration. Afterwar
 
 If you extend your models (i. e. entities and value objects) by
 
-* `ProAI\Datamapper\Support\AggregateRoot`,
-* `ProAI\Datamapper\Support\Entity` or
-* `ProAI\Datamapper\Support\ValueObject`
+* `ProAI\DatamapperPresenter\Support\AggregateRoot`,
+* `ProAI\DatamapperPresenter\Support\Entity` or
+* `ProAI\DatamapperPresenter\Support\ValueObject`
 
 your model is presentable and you can use the presenter.
 
