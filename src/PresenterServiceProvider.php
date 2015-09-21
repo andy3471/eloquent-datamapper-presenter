@@ -16,14 +16,17 @@ class PresenterServiceProvider extends ServiceProvider
     public function boot()
     {
         $app = $this->app;
+        
+        if(! empty($app['config']['datamapper.auto_present'])) {
 
-        $app['view']->composer('*', function ($view) use ($app) {
-            $data = array_merge($view->getFactory()->getShared(), $view->getData());
+            $app['view']->composer('*', function ($view) use ($app) {
+                $data = array_merge($view->getFactory()->getShared(), $view->getData());
 
-            foreach ($data as $key => $item) {
-                $view[$key] = Decorator::decorate($item);
-            }
-        });
+                foreach ($data as $key => $item) {
+                    $view[$key] = Decorator::decorate($item);
+                }
+            });
+        }
     }
 
     /**
@@ -51,7 +54,7 @@ class PresenterServiceProvider extends ServiceProvider
 
         $this->mergeConfigFrom($configPath, 'datamapper');
 
-        $this->publishes([$configPath => config_path('datamapper.php')], 'config');
+        $this->publishes([$configPath => config_path('datamapper.php')], 'datamapper');
     }
 
     /**
