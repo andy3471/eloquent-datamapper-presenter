@@ -3,9 +3,9 @@
 namespace ProAI\DatamapperPresenter\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use ProAI\Datamapper\Metadata\PresenterScanner;
-use ProAI\Datamapper\Console\PresenterRegisterCommand;
-use ProAI\Datamapper\Console\PresenterClearCommand;
+use ProAI\DatamapperPresenter\Metadata\PresenterScanner;
+use ProAI\DatamapperPresenter\Console\PresenterRegisterCommand;
+use ProAI\DatamapperPresenter\Console\PresenterClearCommand;
 
 class CommandsServiceProvider extends ServiceProvider
 {
@@ -24,6 +24,8 @@ class CommandsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register('ProAI\Datamapper\Providers\MetadataServiceProvider');
+
+        $this->app->register('ProAI\DatamapperPresenter\Providers\MetadataServiceProvider');
 
         $this->registerScanner();
 

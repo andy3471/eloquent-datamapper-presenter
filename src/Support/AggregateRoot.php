@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\Datamapper\Support;
+namespace ProAI\DatamapperPresenter\Support;
 
 use ProAI\Datamapper\Contracts\AggregateRoot as AggregateRootContract;
 use ProAI\Datamapper\Support\AggregateRoot as BaseAggregateRoot;

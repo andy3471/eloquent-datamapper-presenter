@@ -4,7 +4,7 @@ namespace ProAI\DatamapperPresenter\Console;
 
 use Illuminate\Console\Command;
 use ProAI\Datamapper\Metadata\ClassFinder;
-use ProAI\Datamapper\Metadata\PresenterScanner;
+use ProAI\DatamapperPresenter\Metadata\PresenterScanner;
 use ProAI\DatamapperPresenter\Presenter\Repository;
 use UnexpectedValueException;
 

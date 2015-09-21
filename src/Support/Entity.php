@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\Datamapper\Support;
+namespace ProAI\DatamapperPresenter\Support;
 
 use ProAI\Datamapper\Contracts\Entity as EntityContract;
 use ProAI\Datamapper\Support\ValueObject as BaseEntity;

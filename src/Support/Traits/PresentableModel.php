@@ -17,15 +17,6 @@ trait PresentableModel
     private $__presenter;
 
     /**
-     * Private final constructor, because you should name your constructor's in domain driven design.
-     *
-     * @return void
-     */
-    final protected function __construct()
-    {
-    }
-
-    /**
      * Get the presenter instance of this model.
      *
      * @return \ProAI\Datamapper\Support\Presenter
