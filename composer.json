@@ -1,0 +1,32 @@
+{
+    "name": "proai/laravel-datamapper-presenter",
+    "description": "Presenter for the Laravel Datamapper package",
+    "keywords": ["laravel","mapper","datamapper","presenter"],
+    "homepage": "http://github.com/proai/laravel-datamapper-presenter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus J. Wetzel",
+            "email": "markuswetzel@gmx.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "proai/laravel-datamapper": "1.*",
+        "illuminate/console": "5.*",
+        "illuminate/filesystem": "5.*",
+        "illuminate/database": "5.*",
+        "doctrine/annotations": "~1.2",
+        "doctrine/dbal": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProAI\\DatamapperPresenter\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
