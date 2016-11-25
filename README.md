@@ -2,9 +2,9 @@
 
 [![Latest Stable Version](https://poser.pugx.org/proai/laravel-datamapper-presenter/v/stable)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![Total Downloads](https://poser.pugx.org/proai/laravel-datamapper-presenter/downloads)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![Latest Unstable Version](https://poser.pugx.org/proai/laravel-datamapper-presenter/v/unstable)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![License](https://poser.pugx.org/proai/laravel-datamapper-presenter/license)](https://packagist.org/packages/proai/laravel-datamapper-presenter)
 
-**Important: This is an alpha version. So it might be that not everything work out of the box. You are welcome to report bugs.**
+This package extends the [Laravel Datamapper](https://github.com/proai/laravel-datamapper) package by presenter classes. The following is a notice for the Laravel Datamapper package, but also fit to this package:
 
-This package extends the [Laravel Datamapper](https://github.com/proai/laravel-datamapper) package by a presenter.
+**Important: This package is unmaintained and never hit production stage. I decided that it is not worse to develop a datamapper package, because there is no real advantage over using the Laravel Eloquent orm. Nevertheless this package is [well documented](https://proai.github.io/laravel-datamapper) and basically all features should work out of the box. So if someone is interested in using the datamapper pattern with Laravel, this package is a good starting point.**
 
 ## Installation
 
