@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=8.1",
         "proai/laravel-datamapper": "1.*",
-        "illuminate/console": "5.*",
-        "illuminate/filesystem": "5.*",
+        "illuminate/console": "^9.0",
+        "illuminate/filesystem": "^9.0",
         "doctrine/annotations": "~1.2"
     },
     "autoload": {
