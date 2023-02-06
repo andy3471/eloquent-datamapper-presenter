@@ -1,10 +1,10 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter;
+namespace AndyH\Datamapper\Presenter;
 
 use Illuminate\Support\ServiceProvider;
-use ProAI\Datamapper\Presenter\Presenter\Repository;
-use ProAI\Datamapper\Presenter\Presenter\Decorator;
+use AndyH\Datamapper\Presenter\Presenter\Repository;
+use AndyH\Datamapper\Presenter\Presenter\Decorator;
 
 class PresenterServiceProvider extends ServiceProvider
 {
@@ -40,7 +40,7 @@ class PresenterServiceProvider extends ServiceProvider
 
         $this->registerPresenters();
 
-        $this->app->register('ProAI\Datamapper\Presenter\Providers\CommandsServiceProvider');
+        $this->app->register('AndyH\Datamapper\Presenter\Providers\CommandsServiceProvider');
     }
 
     /**

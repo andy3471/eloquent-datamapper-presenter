@@ -1,11 +1,11 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Support;
+namespace AndyH\Datamapper\Presenter\Support;
 
-use ProAI\Datamapper\Contracts\ValueObject as ValueObjectContract;
-use ProAI\Datamapper\Support\ValueObject as BaseValueObject;
-use ProAI\Datamapper\Presenter\Support\Traits\PresentableModel;
-use ProAI\Datamapper\Presenter\Contracts\PresentableModel as PresentableModelContract;
+use AndyH\Datamapper\Contracts\ValueObject as ValueObjectContract;
+use AndyH\Datamapper\Support\ValueObject as BaseValueObject;
+use AndyH\Datamapper\Presenter\Support\Traits\PresentableModel;
+use AndyH\Datamapper\Presenter\Contracts\PresentableModel as PresentableModelContract;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Console;
+namespace AndyH\Datamapper\Presenter\Console;
 
 use Illuminate\Console\Command;
-use ProAI\Datamapper\Metadata\ClassFinder;
-use ProAI\Datamapper\Presenter\Metadata\PresenterScanner;
-use ProAI\Datamapper\Presenter\Presenter\Repository;
+use AndyH\Datamapper\Metadata\ClassFinder;
+use AndyH\Datamapper\Presenter\Metadata\PresenterScanner;
+use AndyH\Datamapper\Presenter\Presenter\Repository;
 use UnexpectedValueException;
 
 abstract class PresenterCommand extends Command
@@ -13,21 +13,21 @@ abstract class PresenterCommand extends Command
     /**
      * The class finder instance.
      *
-     * @var \ProAI\Datamapper\Metadata\ClassFinder
+     * @var \AndyH\Datamapper\Metadata\ClassFinder
      */
     protected $finder;
 
     /**
      * The presenter scanner instance.
      *
-     * @var \ProAI\Datamapper\Metadata\PresenterScanner
+     * @var \AndyH\Datamapper\Metadata\PresenterScanner
      */
     protected $scanner;
 
     /**
      * The presenter repository instance.
      *
-     * @var \ProAI\Datamapper\Presenter\Repository
+     * @var \AndyH\Datamapper\Presenter\Repository
      */
     protected $repository;
 
@@ -41,9 +41,9 @@ abstract class PresenterCommand extends Command
     /**
      * Create a new migration install command instance.
      *
-     * @param \ProAI\Datamapper\Metadata\ClassFinder $finder
-     * @param \ProAI\Datamapper\Metadata\PresenterScanner $scanner
-     * @param \ProAI\Datamapper\Presenter\Repository $schema
+     * @param \AndyH\Datamapper\Metadata\ClassFinder $finder
+     * @param \AndyH\Datamapper\Metadata\PresenterScanner $scanner
+     * @param \AndyH\Datamapper\Presenter\Repository $schema
      * @param array $config
      * @return void
      */

@@ -1,9 +1,9 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Presenter;
+namespace AndyH\Datamapper\Presenter\Presenter;
 
-use ProAI\Datamapper\Presenter\Contracts\PresentableModel;
-use ProAI\Datamapper\Contracts\Proxy;
+use AndyH\Datamapper\Presenter\Contracts\PresentableModel;
+use AndyH\Datamapper\Contracts\Proxy;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\Pagination\Paginator;

@@ -1,12 +1,12 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter;
+namespace AndyH\Datamapper\Presenter;
 
 use Exception;
 use BadMethodCallException;
 use ArrayAccess;
-use ProAI\Datamapper\Presenter\Contracts\PresentableModel;
-use ProAI\Datamapper\Presenter\Presenter\Decorator;
+use AndyH\Datamapper\Presenter\Contracts\PresentableModel;
+use AndyH\Datamapper\Presenter\Presenter\Decorator;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 
@@ -109,7 +109,7 @@ class Presenter implements ArrayAccess, Arrayable, Jsonable
     /**
      * Get the model instance.
      *
-     * @param \ProAI\Datamapper\Presenter\Support\PresentableModel $model
+     * @param \AndyH\Datamapper\Presenter\Support\PresentableModel $model
      * @return void
      */
     public function setModel(PresentableModel $model)
@@ -120,7 +120,7 @@ class Presenter implements ArrayAccess, Arrayable, Jsonable
     /**
      * Get the model instance.
      *
-     * @return \ProAI\Datamapper\Presenter\Support\PresentableModel
+     * @return \AndyH\Datamapper\Presenter\Support\PresentableModel
      */
     public function getModel()
     {

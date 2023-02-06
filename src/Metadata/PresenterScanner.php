@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Metadata;
+namespace AndyH\Datamapper\Presenter\Metadata;
 
 use ReflectionClass;
 use Doctrine\Common\Annotations\AnnotationReader;
@@ -57,7 +57,7 @@ class PresenterScanner
         $reflectionClass = new ReflectionClass($class);
 
         // check if class is entity
-        if ($annotation = $this->reader->getClassAnnotation($reflectionClass, '\ProAI\Datamapper\Presenter\Annotations\Presenter')) {
+        if ($annotation = $this->reader->getClassAnnotation($reflectionClass, '\AndyH\Datamapper\Presenter\Annotations\Presenter')) {
             return $this->parsePresenter($class, $annotation);
         } else {
             return null;
@@ -68,7 +68,7 @@ class PresenterScanner
      * Parse an entity class.
      *
      * @param array $class
-     * @param \ProAI\Datamapper\Annotations\Presenter $annotation
+     * @param \AndyH\Datamapper\Annotations\Presenter $annotation
      * @return string
      */
     public function parsePresenter($class, $annotation)

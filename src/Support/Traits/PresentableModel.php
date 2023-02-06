@@ -1,10 +1,10 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Support\Traits;
+namespace AndyH\Datamapper\Presenter\Support\Traits;
 
-use ProAI\Datamapper\Presenter\Presenter\Repository;
-use ProAI\Datamapper\Presenter\Presenter\Decorator;
-use ProAI\Datamapper\Presenter\Presenter;
+use AndyH\Datamapper\Presenter\Presenter\Repository;
+use AndyH\Datamapper\Presenter\Presenter\Decorator;
+use AndyH\Datamapper\Presenter\Presenter;
 use Illuminate\Support\Facades\App;
 
 trait PresentableModel
@@ -19,7 +19,7 @@ trait PresentableModel
     /**
      * Get the presenter instance of this model.
      *
-     * @return \ProAI\Datamapper\Support\Presenter
+     * @return \AndyH\Datamapper\Support\Presenter
      */
     public function getPresenter()
     {

@@ -1,23 +1,23 @@
 # Laravel Datamapper Presenter
 
-[![Latest Stable Version](https://poser.pugx.org/proai/laravel-datamapper-presenter/v/stable)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![Total Downloads](https://poser.pugx.org/proai/laravel-datamapper-presenter/downloads)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![Latest Unstable Version](https://poser.pugx.org/proai/laravel-datamapper-presenter/v/unstable)](https://packagist.org/packages/proai/laravel-datamapper-presenter) [![License](https://poser.pugx.org/proai/laravel-datamapper-presenter/license)](https://packagist.org/packages/proai/laravel-datamapper-presenter)
+[![Latest Stable Version](https://poser.pugx.org/AndyH/laravel-datamapper-presenter/v/stable)](https://packagist.org/packages/AndyH/laravel-datamapper-presenter) [![Total Downloads](https://poser.pugx.org/AndyH/laravel-datamapper-presenter/downloads)](https://packagist.org/packages/AndyH/laravel-datamapper-presenter) [![Latest Unstable Version](https://poser.pugx.org/AndyH/laravel-datamapper-presenter/v/unstable)](https://packagist.org/packages/AndyH/laravel-datamapper-presenter) [![License](https://poser.pugx.org/AndyH/laravel-datamapper-presenter/license)](https://packagist.org/packages/AndyH/laravel-datamapper-presenter)
 
-This package extends the [Laravel Datamapper](https://github.com/proai/laravel-datamapper) package by presenter classes. The following is a notice for the Laravel Datamapper package, but also fit to this package:
+This package extends the [Laravel Datamapper](https://github.com/AndyH/laravel-datamapper) package by presenter classes. The following is a notice for the Laravel Datamapper package, but also fit to this package:
 
-**Important: This package is unmaintained and never hit production stage. I decided that it is not worse to develop a datamapper package, because there is no real advantage over using the Laravel Eloquent orm. Nevertheless this package is [well documented](https://proai.github.io/laravel-datamapper) and basically all features should work out of the box. So if someone is interested in using the datamapper pattern with Laravel, this package is a good starting point.**
+**Important: This package is unmaintained and never hit production stage. I decided that it is not worse to develop a datamapper package, because there is no real advantage over using the Laravel Eloquent orm. Nevertheless this package is [well documented](https://AndyH.github.io/laravel-datamapper) and basically all features should work out of the box. So if someone is interested in using the datamapper pattern with Laravel, this package is a good starting point.**
 
 ## Installation
 
 Laravel Datamapper Presenter is distributed as a composer package. So you first have to add the package to your `composer.json` file:
 
 ```
-"proai/laravel-datamapper-presenter": "~1.0@dev"
+"AndyH/laravel-datamapper-presenter": "~1.0@dev"
 ```
 
 Then you have to run `composer update` to install the package. Once this is completed, you have to add the service provider to the providers array in `config/app.php`:
 
 ```
-'ProAI\Datamapper\Presenter\Datamapper\PresenterServiceProvider'
+'AndyH\Datamapper\Presenter\Datamapper\PresenterServiceProvider'
 ```
 
 Run `php artisan vendor:publish` to publish this package configuration. Afterwards you can edit the file `config/datamapper.php`.
@@ -26,9 +26,9 @@ Run `php artisan vendor:publish` to publish this package configuration. Afterwar
 
 If you extend your models (i. e. entities and value objects) by
 
-* `ProAI\Datamapper\Presenter\Support\AggregateRoot`,
-* `ProAI\Datamapper\Presenter\Support\Entity` or
-* `ProAI\Datamapper\Presenter\Support\ValueObject`
+* `AndyH\Datamapper\Presenter\Support\AggregateRoot`,
+* `AndyH\Datamapper\Presenter\Support\Entity` or
+* `AndyH\Datamapper\Presenter\Support\ValueObject`
 
 your model is presentable and you can use the presenter.
 
@@ -56,8 +56,8 @@ For AJAX responses the models will be converted automatically to json.
 
 namespace Acme\Presenters;
 
-use ProAI\Datamapper\Annotations as DM;
-use ProAI\Datamapper\Support\Presenter;
+use AndyH\Datamapper\Annotations as DM;
+use AndyH\Datamapper\Support\Presenter;
 use Illuminate\Contracts\Auth\Guard;
 
 /**
@@ -86,7 +86,7 @@ class UserPresenter extends Presenter
 
 ## Support
 
-Bugs and feature requests are tracked on [GitHub](https://github.com/proai/laravel-datamapper-presenter/issues).
+Bugs and feature requests are tracked on [GitHub](https://github.com/AndyH/laravel-datamapper-presenter/issues).
 
 ## License
 

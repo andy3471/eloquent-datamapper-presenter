@@ -1,8 +1,8 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Annotations;
+namespace AndyH\Datamapper\Presenter\Annotations;
 
-use ProAI\Datamapper\Annotations\Annotation;
+use AndyH\Datamapper\Annotations\Annotation;
 
 /**
  * @Annotation

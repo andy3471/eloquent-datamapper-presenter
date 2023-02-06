@@ -1,25 +1,25 @@
 {
-    "name": "proai/laravel-datamapper-presenter",
-    "description": "Presenter for the Laravel Datamapper package",
+    "name": "andyh/eloquent-datamapper-presenter",
+    "description": "Presenter for the Eloquent Datamapper package",
     "keywords": ["laravel","mapper","datamapper","presenter"],
-    "homepage": "http://github.com/proai/laravel-datamapper-presenter",
+    "homepage": "http://github.com/andy3471/eloquent-datamapper-presenter",
     "license": "MIT",
     "authors": [
         {
-            "name": "Markus J. Wetzel",
-            "email": "markuswetzel@gmx.net"
+            "name": "Andrew Hargrave",
+            "email": "me@andyh.app"
         }
     ],
     "require": {
         "php": ">=8.1",
-        "proai/laravel-datamapper": "1.*",
+        "andyh/eloquent-datamapper": "1.*",
         "illuminate/console": "^9.0",
         "illuminate/filesystem": "^9.0",
         "doctrine/annotations": "~1.2"
     },
     "autoload": {
         "psr-4": {
-            "ProAI\\Datamapper\\Presenter\\": "src/"
+            "AndyH\\Datamapper\\Presenter\\": "src/"
         }
     },
     "extra": {

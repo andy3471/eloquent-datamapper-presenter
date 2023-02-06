@@ -1,6 +1,6 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Presenter;
+namespace AndyH\Datamapper\Presenter\Presenter;
 
 use Illuminate\Filesystem\Filesystem;
 

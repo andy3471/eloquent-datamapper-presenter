@@ -1,11 +1,11 @@
 <?php
 
-namespace ProAI\Datamapper\Presenter\Providers;
+namespace AndyH\Datamapper\Presenter\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use ProAI\Datamapper\Presenter\Metadata\PresenterScanner;
-use ProAI\Datamapper\Presenter\Console\PresenterRegisterCommand;
-use ProAI\Datamapper\Presenter\Console\PresenterClearCommand;
+use AndyH\Datamapper\Presenter\Metadata\PresenterScanner;
+use AndyH\Datamapper\Presenter\Console\PresenterRegisterCommand;
+use AndyH\Datamapper\Presenter\Console\PresenterClearCommand;
 
 class CommandsServiceProvider extends ServiceProvider
 {
@@ -23,9 +23,9 @@ class CommandsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register('ProAI\Datamapper\Providers\MetadataServiceProvider');
+        $this->app->register('AndyH\Datamapper\Providers\MetadataServiceProvider');
 
-        $this->app->register('ProAI\Datamapper\Presenter\Providers\MetadataServiceProvider');
+        $this->app->register('AndyH\Datamapper\Presenter\Providers\MetadataServiceProvider');
 
         $this->registerScanner();
 
